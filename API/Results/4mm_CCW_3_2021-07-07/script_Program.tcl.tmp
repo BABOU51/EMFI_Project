@@ -1,0 +1,10 @@
+#Script pour pragrammer le FPGA dans la console TCL
+
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+
+set_property PROGRAM.FILE {C:\Users\thija8\Desktop\Stage 2021\user_efuse_FF\user_efuse_project\user_efuse_project.runs\impl_1\user_efuse.bit} [current_hw_device]
+program_hw_devices [current_hw_device]
+
+exit
