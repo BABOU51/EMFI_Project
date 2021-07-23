@@ -4,7 +4,7 @@
 |:-:|:-:|
 |Alexandre Proulx|Supervisor|
 |Bastien Bourgault|First year trainee|
-|Jacob Thibodeay|First year trainee|
+|Jacob Thibodeau|First year trainee|
 
 ### Project objective
 The project's objective is to take  a  look  at  the  impact  of  Electro-magnetic  Fault  Injection  (EMFI)  on  the  behavior  of  SRAM-based  FPGAs.  We  investigate  how  EMFIs  affect  the  FPGA’sconfiguration  memory  and  its  fabric,  and  take  a  look  at  howEMFIs  impact  the  reading  of  eFuses  used  for  AES  key  storageand  device  configuration.  Using  a  specialized  EMFI  apparatusalong with a custom built fault injection test bench, we performa  series  of  tests  and  discuss  the  level  of  accuracy  and  precisionwhich  can  be  achieved  with  this  equipment  and  its  impact  ondevice  security.
